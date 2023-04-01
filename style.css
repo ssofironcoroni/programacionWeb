@@ -88,6 +88,15 @@
   padding: 15px;
 }
 
+.footer{
+  font-family: 'Gluten', cursive;
+  margin-top: 20px;
+  text-align:left;
+  padding: 50px;
+  background-color: #d1ebc7;
+  color: black;
+}
+
 
 .card{
   font-family:'Gluten', cursive; 
