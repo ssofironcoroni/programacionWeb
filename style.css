@@ -1,46 +1,104 @@
 *{
-  padding: 0;
-  margin: 0;
-
+  padding: 1px;
+  margin: 1px;
 }
 .NavBar {
     list-style-type: none;
     margin: 0;
     margin-top: 0;
     padding: 0;
-    background-color: #0C4FFF;
-    font-size: 15px;
-    text-align: center;
+    background-color: #f78765;
+    font-size: 17px;
+    justify-content: center;
     display: flex;
     color: white;
     overflow: hidden;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    width: 1206px;
+    font-family: 'Gluten', cursive;
+    width: 1240px;
     float: inline-start;
+    border-radius: 15px;
+    
   }
 
   nav ul li {
     list-style: none;
     float: left;
-    margin: 10px;
-    padding: 10px;
+    margin: 8px;
+    padding: 10px;  
   }
 
   nav ul li a {
     text-decoration: none;
     color: white;
     font-weight: bold;
+    transition: .5s;
   }
 
   li a:hover{
-    background-color: #107cc9;
-    
+   background-color: #f06f48;
   }
+  
+  .fotoFrancia{
+    height: 200px;
+    width: 300px;
+}
 
-  .logo{
-    height: 100px;
-  }
+  .fotoInglaterraCard{
+    height: 200px;
+    width: 300px;
+}
 
-  .foto{
-    height: 300px;
+.FotoInglaterraCarrousel{
+  width: 500px;
+  margin-left: 360px;
+}
+
+.fotoSuiza{
+  height: 200px;
+  width: 300px;
+}
+
+.fotoPortugal{
+  height: 200px;
+  width: 300px;
+}
+
+.logo{
+  width: 100px;
+  height: 100px;
+  margin-left: 1100px;
+  padding-top: 10px;
+}
+
+.subtitulo1 {
+  text-align: center;
+  font-family: 'Gluten', cursive;
+  padding: 5px;
+}
+
+.contenedorLogo{
+  width: 30px;
+  height: 30px;
+}
+
+
+.subtitulo2 {
+  text-align: center;
+  font-family: 'Gluten', cursive;
+  padding: 15px;
+}
+
+
+.card{
+  font-family:'Gluten', cursive; 
+  padding: 20px;
+  margin-top: 20px;
+  margin-left: 30px ;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+  transition: 0.2s;
+  width: 24%;
+}
+
+.card:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
 }
