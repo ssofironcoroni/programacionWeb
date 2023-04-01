@@ -48,9 +48,11 @@
     width: 300px;
 }
 
-.FotoInglaterraCarrousel{
-  width: 500px;
+.fotoIndex{
+  width: 530px;
   margin-left: 360px;
+  border-radius: 30px;
+  box-shadow: 0 0 16px 0 rgba(0,0,0,0.2);
 }
 
 .fotoSuiza{
