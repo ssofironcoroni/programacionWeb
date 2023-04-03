@@ -149,7 +149,7 @@
   border: none;
   color: black;
   font-family: 'Gluten', cursive;
-  background-color: #CACACA;
+  background-color: #f5d0c4;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1);
   padding: 15px 30px;
   text-align: center;
@@ -159,10 +159,12 @@
   margin: 4px 2px;
   margin-left: 50px;
   cursor: pointer;
-  border-radius: 15px;
+  border-radius: 8px;
+  transition-duration: 0.5s;
   height: 40px;
 }
 
 .volverInicio:hover{
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  background-color: #edab97;
 }
