@@ -168,3 +168,16 @@
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   background-color: #edab97;
 }
+
+
+.detalleViajecito{
+  padding: 10px;
+}
+
+.lineaFooter{
+  width: 15px;
+  height: 80px;
+  margin-left: 470px;
+  position: absolute;
+  top: 610px;
+}
