@@ -85,7 +85,7 @@
 .subtitulo1 {
   text-align: center;
   font-family: 'Gluten', cursive;
-  padding: 5px;
+  padding: 15px;
   font-size: 30px;
 }
 
@@ -97,7 +97,7 @@
 .subtitulo2 {
   text-align: center;
   font-family: 'Gluten', cursive;
-  padding: 15px;
+  padding: 10px;
   font-size: 25px;
 }
 
@@ -142,4 +142,27 @@
 
 .card:hover{
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+}
+
+
+.volverInicio{
+  border: none;
+  color: black;
+  font-family: 'Gluten', cursive;
+  background-color: #CACACA;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1);
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  margin-left: 50px;
+  cursor: pointer;
+  border-radius: 15px;
+  height: 40px;
+}
+
+.volverInicio:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
