@@ -181,3 +181,7 @@
   position: absolute;
   top: 610px;
 }
+
+.linkCards{
+  text-decoration: none;
+}
