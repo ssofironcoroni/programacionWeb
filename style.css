@@ -1,6 +1,7 @@
 *{
   padding: 1px;
   margin: 1px;
+  font-family: 'Gluten', cursive;
 }
 .NavBar {
     list-style-type: none;
@@ -184,4 +185,17 @@
 
 .linkCards{
   text-decoration: none;
+}
+
+.cards2{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); 
+  border-radius: 2px;
+  margin-left: 40px ;
+  padding: 30px;
+  margin-top: 10px;
+}
+
+.cards2:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+  transition: 0.3s;
 }
