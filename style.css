@@ -116,7 +116,6 @@
   font-family:'Gluten', cursive; 
   padding: 20px;
   margin-top: 20px;
-  margin-left: 30px ;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
   transition: 0.2s;
   border-radius: 6px;
@@ -135,6 +134,7 @@
 
 .container{
   display: flex;
+  justify-content: space-around;
 }
 
 .cardPortugal:hover{
