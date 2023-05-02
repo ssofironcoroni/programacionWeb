@@ -1,31 +1,31 @@
 *{
-  padding: 1px;
-  margin: 1px;
+  padding: 0.2vw;
+  margin: 0.2vw;
   font-family: 'Gluten', cursive;
 }
 .NavBar {
     list-style-type: none;
-    margin: 0;
-    margin-top: 0;
-    padding: 0;
+    margin: 0.5vw;
+    margin-top: 0.5vw;
+    padding: 0.5vw;
     background-color: #f78765;
-    font-size: 17px;
+    font-size: 1.5vw;
     justify-content: center;
     display: flex;
     color: white;
     overflow: hidden;
     font-family: 'Gluten', cursive;
-    width: 1240px;
+    width: 90vw;
     float: inline-start;
-    border-radius: 15px;
+    border-radius: 3vw;
     
   }
 
   nav ul li {
     list-style: none;
     float: left;
-    margin: 8px;
-    padding: 10px;  
+    margin: 0.3vw;
+    padding: 0.4vw;  
   }
 
   nav ul li a {
@@ -50,9 +50,9 @@
 }
 
 .fotoIndex{
-  width: 530px;
-  margin-left: 360px;
-  border-radius: 30px;
+  width: 40vw;
+  margin-left: 30vw;
+  border-radius: 3vw;
   box-shadow: 0 0 16px 0 rgba(0,0,0,0.3);
 }
 
