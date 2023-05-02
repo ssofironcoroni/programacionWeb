@@ -9,7 +9,7 @@
     margin-top: 0.5vw;
     padding: 0.5vw;
     background-color: #f78765;
-    font-size: 1.5vw;
+    font-size: 1.7vw;
     justify-content: center;
     display: flex;
     color: white;
@@ -86,31 +86,31 @@
 .subtitulo1 {
   text-align: center;
   font-family: 'Gluten', cursive;
-  padding: 15px;
-  font-size: 30px;
+  padding: 1vw;
+  font-size: 2.5vw;
 }
 
 .contenedorLogo{
-  width: 30px;
-  height: 30px;
+  width: 3vw;
+  height: 3vw;
 }
 
 .subtitulo2 {
   text-align: center;
   font-family: 'Gluten', cursive;
-  padding: 10px;
-  font-size: 25px;
+  padding: 2vw;
+  font-size: 1.7vw;
 }
 
 .footer{
   font-family: 'Gluten', cursive;
-  margin-top: 20px;
+  margin-top: 1vw;
+  font-size: 1.3vw;
   text-align:left;
-  padding: 50px;
+  padding: 2vw;
   background-color: #d1ebc7;
   color: black;
 }
-
 
 .card{
   font-family:'Gluten', cursive; 
@@ -145,24 +145,23 @@
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
 }
 
-
 .volverInicio{
   border: none;
   color: black;
   font-family: 'Gluten', cursive;
   background-color: #f5d0c4;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1);
-  padding: 15px 30px;
+  box-shadow: 0 8vw 16 0 rgba(0,0,0,0.1);
+  padding: 1vw 1vw;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  margin-left: 50px;
+  font-size: 1.5vw;
+  margin: 1vw;
+  margin-left: 5vw;
   cursor: pointer;
-  border-radius: 8px;
+  border-radius: 1vw;
   transition-duration: 0.5s;
-  height: 40px;
+  height: 4vw;
 }
 
 .volverInicio:hover{
@@ -176,11 +175,11 @@
 }
 
 .lineaFooter{
-  width: 15px;
-  height: 80px;
-  margin-left: 470px;
+  width: 2vw;
+  height: 6vw;
+  margin-left: 40vw;
   position: absolute;
-  top: 610px;
+  top: 51vw;
 }
 
 .linkCards{
