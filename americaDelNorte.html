@@ -7,6 +7,7 @@
     <title>Visita America del Norte!</title>
     <link rel="icon"  href="./images/VIAJEE.png">
     <link rel="stylesheet" href="style.css">
+    <script defer src="popup.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Gluten:wght@300&display=swap" rel="stylesheet">
 </head>
     <body>
@@ -27,10 +28,7 @@
             </nav>
             
             </div>
-            <div class="contenedorLogo">
-            <img  class="logo" src="./images/VIAJEE.png" >
-            </div>
-
+           
         </header>
         
         <a href="./index.html">
@@ -42,6 +40,7 @@
 
         <div class="container">
             <div class="col">
+              <a href="#"  class="open-modal" data-modal="0">
               <div class="card">
                 <img class="fotoFrancia" src="./images/usaSlide.jpg" >
                 <div class="container">
@@ -49,8 +48,10 @@
                 </div>
               </div>
             </div>
+          </a>
 
               <div class="col">
+                <a href="#"  class="open-modal" data-modal="1">
                 <div class="card">
                   <img class="fotoFrancia" src="./images/mexicoSlide.jpg" >
                   <div class="container">
@@ -58,12 +59,44 @@
                   </div>
                 </div>
               </div>
+            </a>
 
               <div class="col">
                 <div class="card">
+                  <a href="#"  class="open-modal" data-modal="2">
                   <img class="fotoFrancia" src="./images/canadaSlide.jpg" >
                   <div class="container">
                     <h3><b>CANADÁ</b></h3> 
                   </div>
                 </div>
             </div>
+          </a>
+        </div>
+
+            <section class="modal">
+              <div class="modal__container">
+                <img src="./images/usaSlide.jpg" class="modal__img">
+                <h2 class="modal__title">Estados Unidos</h2>
+                <p class="modal__paragraph"> En la corta historia desde su fundación hace 200 años, los Estados Unidos han alcanzado un desarrollo notable en muchas áreas. El país es uno de los más avanzados en los campos de la economía, la ciencia, la tecnología de información, la medicina, la política, y el ocio.</p>
+                <a href="#" class="modal__close">Cerrar </a>
+              </div>
+            </section>
+
+
+            <section class="modal">
+              <div class="modal__container">
+                <img src="./images/mexicoSlide.jpg" class="modal__img">
+                <h2 class="modal__title">México</h2>
+                <p class="modal__paragraph">La cultura mexicana es el resultado tanto de la tradición indígena como de la cultura española impuesta por la colonización. Un poco menor (en comparación) fue el aporte de la cultura africana traída por los esclavos que los propios europeos incorporaron a la naciente sociedad latinoamericana.</p>
+                <a href="#" class="modal__close">Cerrar</a>
+              </div>
+            </section>
+
+            <section class="modal">
+              <div class="modal__container">
+                <img src="./images/canadaSlide.jpg" class="modal__img">
+                <h2 class="modal__title">Canadá</h2>
+                <p class="modal__paragraph">  Canadá es una nación diversa, tolerante, pacífica y acogedora, conocida por su naturaleza y su impresionante belleza natural. Es un país vasto y variado, un lugar que vale la pena conocer por sus aventuras y sofisticada cultura.</p>
+                <a href="#" class="modal__close">Cerrar</a>
+              </div>
+            </section>
