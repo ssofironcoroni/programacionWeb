@@ -7,6 +7,7 @@
     <title>Visita El Caribe!</title>
     <link rel="icon"  href="./images/VIAJEE.png">
     <link rel="stylesheet" href="style.css">
+    <script defer src="popupp.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Gluten:wght@300&display=swap" rel="stylesheet">
 </head>
     <body>
@@ -27,9 +28,7 @@
             </nav>
             
             </div>
-            <div class="contenedorLogo">
-            <img  class="logo" src="./images/VIAJEE.png" >
-            </div>
+          
 
         </header>
         
@@ -43,18 +42,22 @@
         <div class="container">
             <div class="col">
               <div class="card">
+                <a href="#"  class="open-modal" data-modal="0">
                 <img class="fotoFrancia" src="./images/puertoRicoSlide.jpg" >
                 <div class="container">
                   <h3><b>PUERTO RICO</b></h3> 
                 </div>
               </div>
+            </a>
 
               <div class="card">
+                <a href="#"  class="open-modal" data-modal="1">
                 <img class="fotoFrancia" src="./images/republicaDSlide.jpg" >
                 <div class="container">
                   <h3><b>REPÚBLICA DOMINICANA</b></h3> 
                 </div>
               </div>
+            </a>
 
               <div class="card">
                 <img class="fotoFrancia" src="./images/arubaSlide.jpg" >
@@ -112,3 +115,21 @@
                   
                 
             </div>
+
+            <section class="modal">
+              <div class="modal__container">
+                <img src="./images/puertoRicoSlide.jpg" class="modal__img">
+                <h2 class="modal__title">Puerto Rico</h2>
+                <p class="modal__paragraph"> La increíble diversidad geográfica, la rica y colorida historia y la cálida hospitalidad de Puerto Rico hacen de la Isla un lugar único en el mundo. Nuestras atracciones naturales son ciertamente impresionantes</p>
+                <a href="#" class="modal__close">Cerrar </a>
+              </div>
+            </section>
+
+            <section class="modal">
+              <div class="modal__container">
+                <img src="./images/republicaDSlide.jpg" class="modal__img">
+                <h2 class="modal__title">Republica Dominicana</h2>
+                <p class="modal__paragraph"> El país se encuentra en el corazón del Caribe y sus temperaturas templadas durante todo el año, sus hermosas playas, que son consideradas las mejores del mundo, y su agitada vida nocturna son algunos de los alicientes para los turistas que visitan República Dominicana</p>
+                <a href="#" class="modal__close">Cerrar </a>
+              </div>
+            </section>

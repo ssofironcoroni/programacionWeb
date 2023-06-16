@@ -7,6 +7,7 @@
     <title>Visita America del Sur!</title>
     <link rel="icon"  href="./images/VIAJEE.png">
     <link rel="stylesheet" href="style.css">
+    <script defer src="popupp.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Gluten:wght@300&display=swap" rel="stylesheet">
 </head>
     <body>
@@ -39,21 +40,25 @@
 
         <div class="container">
             <div class="col">
+              <a href="#"  class="open-modal" data-modal="0">
               <div class="card">
                 <img class="fotoFrancia" src="./images/guatemalaSlide.jpg" >
                 <div class="container">
                   <h3><b>GUATEMALA</b></h3> 
                 </div>
+                </a>
               </div>
-    
+              
+              <a href="#"  class="open-modal" data-modal="1">
               <div class="card">
                 <img class="fotoInglaterraCard" src="./images/beliceSlide.jpg" >
                 <div class="container">
                   <h3><b>BELICE</b></h3> 
                 </div>
               </div>
-              
-    
+            </a>
+
+            <a href="#"  class="open-modal" data-modal="2">
               <div class="card">
                 <img class="fotoSuiza" src="./images/hondurasSlide.jpg" >
                 <div class="container">
@@ -61,28 +66,90 @@
                 </div>
               </div>
             </div>
+            </a>
 
               <div class="col">
+                <a href="#"  class="open-modal" data-modal="3">
                 <div class="card">
                   <img class="fotoFrancia" src="./images/elSalvadorSlide.jpg" >
                   <div class="container">
                     <h3><b>EL SALVADOR</b></h3> 
                   </div>
                 </div>
+              </a>
       
                 <div class="card">
+                  <a href="#"  class="open-modal" data-modal="4">
                   <img class="fotoInglaterraCard" src="./images/nicaraguaSlide.jpg" >
                   <div class="container">
                     <h3><b>NICARAGUA</b></h3> 
                   </div>
                 </div>
+              </a>
                 
                 <div class="card">
+                  <a href="#"  class="open-modal" data-modal="5">
                   <img class="fotoSuiza" src="./images/costaRicaSlide.jpg" >
                   <div class="container">
                     <h3><b>COSTA RICA</b></h3> 
                   </div>
                 </div>
               </div>
+            </a>
             
         </div>
+
+        <section class="modal">
+          <div class="modal__container">
+            <img src="./images/guatemalaSlide.jpg" class="modal__img">
+            <h2 class="modal__title">Guatemala</h2>
+            <p class="modal__paragraph"> Guatemala es un país montañoso, la cadena principal de montañas atraviesa el país de Noroeste a Sureste, y forma hacia el Noreste vastas mesetas que constituyen los altos de Guatemala. Su mayor altura la alcanza en la Sierra Madre, en el departamento de San Marcos.</p>
+            <a href="#" class="modal__close">Cerrar </a>
+          </div>
+        </section>
+
+        <section class="modal">
+          <div class="modal__container">
+            <img src="./images/beliceSlide.jpg" class="modal__img">
+            <h2 class="modal__title">Belice</h2>
+            <p class="modal__paragraph"> Belice, uno de los países más pequeños del continente, de los menos poblados del mundo y también uno de los más desconocidos, incluso para sus vecinos. Originalmente el territorio fue ocupado por la civilización maya que construyó decenas de centros ceremoniales.</p>
+            <a href="#" class="modal__close">Cerrar </a>
+          </div>
+        </section>
+
+        <section class="modal">
+          <div class="modal__container">
+            <img src="./images/hondurasSlide.jpg" class="modal__img">
+            <h2 class="modal__title">Honduras</h2>
+            <p class="modal__paragraph"> Honduras se puede describir como un pequeño cinturón que aprieta Centroamérica entre el Caribe y el Pacífico, con Guatemala al norte, Nicaragua al sur y El Salvador al Oeste. Pese a su clima cálido, más de la mitad del territorio es montañoso, con cordilleras que acompañan la frontera norte con Guatemala</p>
+            <a href="#" class="modal__close">Cerrar </a>
+          </div>
+        </section>
+
+        <section class="modal">
+          <div class="modal__container">
+            <img src="./images/elSalvadorSlide.jpg" class="modal__img">
+            <h2 class="modal__title">El Salvador</h2>
+            <p class="modal__paragraph"> Es el país más pequeño de América central, el más densamente poblado y el único que no cuenta con costa caribeña. El Salvador es muy montañoso y destaca la densidad de volcanes. La actividad sísmica es habitual y terriblemente intensa. Además los huracanes azotan el territorio anualmente</p>
+            <a href="#" class="modal__close">Cerrar </a>
+          </div>
+        </section>
+
+
+        <section class="modal">
+          <div class="modal__container">
+            <img src="./images/nicaraguaSlide.jpg" class="modal__img">
+            <h2 class="modal__title">Nicaragua</h2>
+            <p class="modal__paragraph"> El surf, sandboarding, kayak, rápel, canopy, cicloturismo, cabalgata, senderismo, ciclismo de montaña, y excursionismo, entre otros, son algunos de los atractivos preferidos por turistas nacionales y extranjeros. Paradisíacas playas, islas, reservas naturales, volcanes, y ciudades coloniales, te esperan.</p>
+            <a href="#" class="modal__close">Cerrar </a>
+          </div>
+        </section>
+
+        <section class="modal">
+          <div class="modal__container">
+            <img src="./images/costaRicaSlide.jpg" class="modal__img">
+            <h2 class="modal__title">Costa Rica</h2>
+            <p class="modal__paragraph"> Costa Rica está ubicada en Centroamérica, territorio que está unido con América del Norte y América del Sur. Limita al norte con Nicaragua y al sur con Panamá. Por su posición, predomina el clima cálido; sin embargo, se pueden encontrar muchos microclimas diferentes a lo largo y ancho del país.</p>
+            <a href="#" class="modal__close">Cerrar </a>
+          </div>
+        </section>
