@@ -7,6 +7,7 @@
     <title>Visita Europa!</title>
     <link rel="icon"  href="./images/VIAJEE.png">
     <link rel="stylesheet" href="style.css">
+    <script defer src="popupp.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Gluten:wght@300&display=swap" rel="stylesheet">
 </head>
     <body>
@@ -40,20 +41,26 @@
 
         <div class="container">
         <div class="col">
+          <a href="#"  class="open-modal" data-modal="0">
           <div class="card">
             <img class="fotoFrancia" src="./images/franciaSlide.jpg" >
             <div class="container">
               <h3><b>FRANCIA</b></h3> 
             </div>
           </div>
+        </a>
 
+        <a href="#"  class="open-modal" data-modal="1">
           <div class="card">
             <img class="fotoInglaterraCard" src="./images/inglaterraSlide.jpg" >
             <div class="container">
               <h3><b>INGLATERRA</b></h3> 
             </div>
           </div>
+        </a>
           
+
+        <a href="#"  class="open-modal" data-modal="2">
           <div class="card">
             <img class="fotoSuiza" src="./images/suizaSlide.jpg" >
             <div class="container">
@@ -61,15 +68,17 @@
             </div>
           </div>
         </div>
+      </a>
 
         <div class="col">
-
+          <a href="#"  class="open-modal" data-modal="3">
           <div class="card">
             <img class="fotoPortugal" src="./images/portugalSlide.jpg" >
             <div class="container">
               <h3><b>PORTUGAL</b></h3> 
             </div>
           </div>
+        </a>
 
           <div class="card">
             <img class="fotoAlemania" src="./images/alemaniaSlide.jpg" >
@@ -109,10 +118,44 @@
             </div>
           </div>
     </div>
-  
   </div>
+              <section class="modal">
+                <div class="modal__container">
+                <img src="./images/franciaSlide.jpg" class="modal__img">
+                <h2 class="modal__title">Francia</h2>
+                <p class="modal__paragraph"> Conocido es por todos como el país del romanticismo y del amor y la pieza clave es la capital francesa. Para que no te quedes con dudas sobre qué hacer en Francia y qué ciudades visitar, hacemos un recorrido por las ciudades francesas más importantes.</p>
+                <a href="#" class="modal__close">Cerrar </a>
+                </div>
+              </section>
+
+              <section class="modal">
+                <div class="modal__container">
+                <img src="./images/inglaterraSlide.jpg" class="modal__img">
+                <h2 class="modal__title">Inglaterra</h2>
+                <p class="modal__paragraph"> Es un país que ha sido cimiento de grandes e importantes sistemas que luego se han copiado hacia otros países. El sistema jurídico, la iglesia anglicana y el idioma inglés (que es el más utilizado a nivel mundial) son algunos de los aportes de este país que se han extendido por todo el mundo.</p>
+                <a href="#" class="modal__close">Cerrar </a>
+                </div>
+              </section>
 
 
-          </div>
+              <section class="modal">
+                <div class="modal__container">
+                <img src="./images/suizaSlide.jpg" class="modal__img">
+                <h2 class="modal__title">Suiza</h2>
+                <p class="modal__paragraph">Suiza es conocida internacionalmente por su turismo de montaña, sus relojes, chocolates, quesos, navajas, ferrocarriles y el secreto bancario. Es una república federada formada por 26 estados llamados cantones. Su capital es Berna, aunque el sector privado está desarrollado en ciudades como Ginebra, Zürich y Basilea.</p>
+                <a href="#" class="modal__close">Cerrar </a>
+                </div>
+              </section>
+
+              
+              <section class="modal">
+                <div class="modal__container">
+                <img src="./images/suizaSlide.jpg" class="modal__img">
+                <h2 class="modal__title">Portugal</h2>
+                <p class="modal__paragraph">¿Qué tan buena es la vida en Portugal? Portugal es actualmente considerado uno de los mejores países para vivir. Esto sucede no sólo por el excelente clima, la buena comida y la amabilidad de los portugueses, sino también porque el país tiene una serie de ventajas para aquellos que deciden mudarse a Portugal</p>
+                <a href="#" class="modal__close">Cerrar </a>
+                </div>
+              </section>
+
 </body>
 </html>
