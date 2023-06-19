@@ -59,6 +59,8 @@
   margin-left: 30vw;
   border-radius: 3vw;
   box-shadow: 0 0 16px 0 rgba(0,0,0,0.3);
+  justify-content: center;
+  display: flex;
 }
 
 .fotoSuiza{
