@@ -7,6 +7,7 @@
     <title>Visita Asia!</title>
     <link rel="icon"  href="./images/VIAJEE.png">
     <link rel="stylesheet" href="style.css">
+    <script defer src="popupp.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Gluten:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -38,21 +39,25 @@
         <div class="container">
         
             <div class="col">
+              <a href="#"  class="open-modal" data-modal="0">
                 <div class="card">
                   <img class="fotoFrancia" src="./images/japonSlide.jpg" >
                   <div class="container">
                     <h3><b>JAPÓN</b></h3> 
                   </div>
                 </div>
-      
+              </a>
+
+                <a href="#"  class="open-modal" data-modal="1">
                 <div class="card">
                   <img class="fotoInglaterraCard" src="./images/indonesiaSlide.jpg" >
                   <div class="container">
                     <h3><b>INDONESIA</b></h3> 
                   </div>
                 </div>
+              </a>
                 
-      
+              <a href="#"  class="open-modal" data-modal="2">
                 <div class="card">
                   <img class="fotoSuiza" src="./images/chinaSlide.jpg" >
                   <div class="container">
@@ -60,22 +65,29 @@
                   </div>
                 </div>
             </div>
+          </a>
 
             <div class="col">
+              <a href="#"  class="open-modal" data-modal="3">
                 <div class="card">
                   <img class="fotoPortugal" src="./images/indiaSlide.jpg" >
                   <div class="container">
                     <h3><b>INDIA</b></h3> 
                   </div>
                 </div>
-      
+              </a>
+              
+              
+              <a href="#"  class="open-modal" data-modal="4">
                 <div class="card">
                   <img class="fotoAlemania" src="./images/coreaDelSurSlide.jpg" >
                   <div class="container">
                     <h3><b>COREA DEL SUR</b></h3> 
                   </div>
                 </div>
-      
+              </a>
+
+              <a href="#"  class="open-modal" data-modal="5">
                 <div class="card">
                   <img class="fotoBelgica" src="./images/israelSlide.jpg" >
                   <div class="container">
@@ -83,30 +95,120 @@
                   </div>
                 </div>
             </div>
+          </a>
 
             <div class="col">
+              <a href="#"  class="open-modal" data-modal="6">
                 <div class="card">
                   <img class="fotoPortugal" src="./images/armeniaSlide.jpg" >
                   <div class="container">
                     <h3><b>ARMENIA</b></h3> 
                   </div>
                 </div>
-      
+              </a>
+
+              <a href="#"  class="open-modal" data-modal="7">
                 <div class="card">
                   <img class="fotoAlemania" src="./images/taiwanSlide.jpg" >
                   <div class="container">
                     <h3><b>TAIWAN</b></h3> 
                   </div>
                 </div>
-      
+              </a>
+
+              <a href="#"  class="open-modal" data-modal="8">
                 <div class="card">
                   <img class="fotoBelgica" src="./images/arabiaSauditaSlide.jpg" >
                   <div class="container">
                     <h3><b>ARABIA SAUDITA</b></h3> 
                   </div>
                 </div>
+              </a>
             </div>
+
                 
+
+            <section class="modal">
+              <div class="modal__container">
+              <img src="./images/japonSlide.jpg" class="modal__img">
+              <h2 class="modal__title">Japón</h2>
+              <p class="modal__paragraph">Japón es un país fascinante con una historia milenaria, una cultura rica y una economía poderosa. Su influencia en la tecnología, las artes y la gastronomía ha dejado una huella duradera en el mundo. Además, la combinación única de tradición y modernidad hace de Japón un destino atractivo para los visitantes de todo el mundo.</p>
+              <a href="#" class="modal__close">Cerrar </a>
+              </div>
+            </section>
+
+            <section class="modal">
+              <div class="modal__container">
+              <img src="./images/indonesiaSlide.jpg" class="modal__img">
+              <h2 class="modal__title">Indonesia</h2>
+              <p class="modal__paragraph"> Indonesia es un país diverso y fascinante, con una rica cultura, impresionantes paisajes naturales y una población amigable. Su historia y herencia cultural, combinadas con su impresionante belleza natural, hacen de Indonesia un destino atractivo para los visitantes de todo el mundo.</p>
+              <a href="#" class="modal__close">Cerrar </a>
+              </div>
+            </section>
+
+            <section class="modal">
+              <div class="modal__container">
+              <img src="./images/chinaSlide.jpg" class="modal__img">
+              <h2 class="modal__title">China</h2>
+              <p class="modal__paragraph">La cultura china es diversa y rica, con una amplia variedad de tradiciones, costumbres y prácticas. El idioma oficial es el chino mandarín, y se practican diversas religiones. China es un país de vasta extensión territorial, población numerosa y una historia y cultura ricas. Su crecimiento económico, avances tecnológicos y diversidad cultural la convierten en una influencia global significativa en el escenario mundial.</p>
+              <a href="#" class="modal__close">Cerrar </a>
+              </div>
+            </section>
+
+            <section class="modal">
+              <div class="modal__container">
+              <img src="./images/indiaSlide.jpg" class="modal__img">
+              <h2 class="modal__title">India</h2>
+              <p class="modal__paragraph">India es un país diverso y vibrante, con una historia antigua, una rica cultura y una economía en crecimiento. Su patrimonio cultural, sus paisajes impresionantes y su influencia en campos como la música y el cine la convierten en una nación única y fascinante.</p>
+              <a href="#" class="modal__close">Cerrar </a>
+              </div>
+            </section>
+
+
+            <section class="modal">
+              <div class="modal__container">
+              <img src="./images/coreaDelSurSlide.jpg" class="modal__img">
+              <h2 class="modal__title">Corea Del Sur</h2>
+              <p class="modal__paragraph">Corea del Sur es un país dinámico y tecnológicamente avanzado, con una rica historia y una cultura vibrante. Su enfoque en la educación, la competitividad económica y el desarrollo tecnológico la han convertido en una potencia global. Al mismo tiempo, su música, dramas y gastronomía han cautivado a personas de todo el mundo, dejando una marca significativa en la cultura popular global.</p>
+              <a href="#" class="modal__close">Cerrar </a>
+              </div>
+            </section>
+
+            <section class="modal">
+              <div class="modal__container">
+              <img src="./images/israelSlide.jpg" class="modal__img">
+              <h2 class="modal__title">Israel</h2>
+              <p class="modal__paragraph"> Israel es un país con una historia y una identidad cultural profundamente arraigadas. Es reconocido por su desarrollo tecnológico, su diversidad religiosa y su patrimonio histórico. A pesar de los desafíos y conflictos, Israel continúa siendo una nación con una influencia significativa en la región del Medio Oriente y en el escenario global.</p>
+              <a href="#" class="modal__close">Cerrar </a>
+              </div>
+            </section>
+
+            <section class="modal">
+              <div class="modal__container">
+              <img src="./images/armeniaSlide.jpg" class="modal__img">
+              <h2 class="modal__title">Armenia</h2>
+              <p class="modal__paragraph">Armenia es un país con una rica historia, una cultura arraigada y una identidad nacional fuerte. A pesar de los desafíos históricos y actuales, Armenia ha logrado preservar su patrimonio cultural y avanzar como una nación independiente. Su belleza natural, su rica tradición cultural y su hospitalidad hacen de Armenia un destino único para explorar.</p>
+              <a href="#" class="modal__close">Cerrar </a>
+              </div>
+            </section>
+
+            <section class="modal">
+              <div class="modal__container">
+              <img src="./images/taiwanSlide.jpg" class="modal__img">
+              <h2 class="modal__title">Taiwan</h2>
+              <p class="modal__paragraph">Taiwán es una isla con una economía próspera, una rica cultura y una belleza natural impresionante. Aunque su estatus político es complejo y disputado, Taiwán ha logrado establecerse como un destino turístico popular y como un líder en la industria tecnológica. Su gente amable, su gastronomía deliciosa y su patrimonio cultural hacen de Taiwán un lugar único para explorar.</p>
+              <a href="#" class="modal__close">Cerrar </a>
+              </div>
+            </section>
+
+            <section class="modal">
+              <div class="modal__container">
+              <img src="./images/arabiaSauditaSlide.jpg" class="modal__img">
+              <h2 class="modal__title">Arabia Saudita</h2>
+              <p class="modal__paragraph">Arabia Saudita tiene una belleza natural notable, con paisajes desérticos impresionantes, como las dunas de arena y las formaciones rocosas en lugares como el desierto de Rub al-Jali. También cuenta con zonas costeras a lo largo del mar Rojo y el golfo de Aqaba, con hermosas playas y arrecifes de coral.</p>
+              <a href="#" class="modal__close">Cerrar </a>
+              </div>
+            </section>
 
 
 </body>
