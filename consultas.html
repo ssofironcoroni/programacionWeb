@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva tu Consulta</title>
+    <link rel="icon"  href="./images/VIAJEE.png">
+    <link href="https://fonts.googleapis.com/css2?family=Gluten:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="consultasStyles.css">
+    
+</head>
+<body>
+    
+    <div class="NavBar">
+        <nav>
+            <ul>
+            <li><a class="hover" href="./america.html">AMÉRICA</a></li>
+            <li><a class="hover" href="./europa.html"> EUROPA</a></li>
+            <li><a class="hover" href="./africa.html">ÁFRICA</a></li>
+            <li><a class="hover" href="./asia.html">ASIA</a></li>
+            <li><a class="hover" href="./oceania.html">OCEANÍA</a></li>
+            <li><a class="hover" href="./consultas.html">CONSULTAS</a></li>
+        </ul>
+        </nav>
+    </div>
+
+    <a href="./index.html">
+      <button  class="volverInicio"> Volver al Inicio</button>
+    </a>
+
+        <h2 class="subtitulo1"> Sitio de Consultas:  </h2>
+        <h2 class="subtitulo2"> En esta seccion, podrás reservar citas <br> con nosotros para consultas sobre tu viaje, <br> que conocer y como organizarlo  !  </h2>
+        <h2 class="subtitulo2">A continuación, el carrito de compras de sus consultas y los destinos mas <br> solicitados por los clientes! : </h2>
+
+        <div class="carroDeConsultas" id="carroDeConsultas">
+            <h2>  Consultas que ha elegido : </h2>
+            
+            <div class="scroll-container">
+            <table>
+              <thead>
+                <tr>
+                  <th>Destino</th>
+                  
+                  <th>Valor de la Consulta</th>
+                  
+                  <th>Consultas seleccionadas </th>
+                  
+                  <th>Precio Total de las Consultas</th>
+                </tr>
+              </thead>
+              <tbody id="carroCon"></tbody>
+            
+            </table>
+              </div>
+           
+            <div id="totalConsulta" class="totalConsulta">
+              Total: <span id="totalConsulta">$0</span>
+            </div>
+            
+            <button class="btnVaciarCarrito" id="eliminarConsulta">Eliminar sus Consultas</button>
+          
+          </div>
+  
+          <!-- ...................... cards con $ de consultas .....................................  -->
+
+        <div class="container">
+            
+            <div class="col">
+            <div class="card">
+              <img class="fotoFrancia" src="./images/jsArg.jpg" >
+              <div class="tituloCards">
+                <h3><b>ARGENTINA</b></h3> 
+                <h4 class="costoConsulta">$5000</h4>
+                <button class="btnReservar">Reservar Consulta</button>
+              </div>
+            </div>
+
+                <div class="card">
+                  <img class="fotoFrancia" src="./images/jsing.jpg" >
+                  <div class="tituloCards">
+                    <h3><b>INGLATERRA</b></h3> 
+                    <h4 class="costoConsulta">$6700</h4>
+                    <button class="btnReservar">Reservar Consulta</button>
+                  </div>
+                </div>
+
+
+                <div class="card">
+                  <img class="fotoFrancia" src="./images/jsItalia.jpg" >
+                  <div class="tituloCards">
+                    <h3><b>ITALIA</b></h3> 
+                    <h4 class="costoConsulta">$8000</h4>
+                    <button class="btnReservar">Reservar Consulta</button>
+                  </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                  <img class="fotoFrancia" src="./images/jsSuiza.jpg" >
+                  <div class="tituloCards">
+                    <h3><b>SUIZA</b></h3> 
+                    <h4 class="costoConsulta">$12000</h4>
+                    <button class="btnReservar">Reservar Consulta</button>
+                  </div>
+                </div>
+    
+                    <div class="card">
+                      <img class="fotoFrancia" src="./images/jsCostaRR.jpg" >
+                      <div class="tituloCards">
+                        <h3><b>COSTA RICA</b></h3> 
+                        <h4 class="costoConsulta">$3000</h4>
+                        <button class="btnReservar">Reservar Consulta</button>
+                      </div>
+                    </div>
+    
+                    <div class="card">
+                      <img class="fotoFrancia" src="./images/jsMad.jpg" >
+                      <div class="tituloCards">
+                        <h3><b>MADAGASCAR</b></h3> 
+                        <h4 class="costoConsulta">$11000</h4>
+                        <button class="btnReservar">Reservar Consulta</button>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                      <img class="fotoFrancia" src="./images/jsJap.jpg" >
+                      <div class="tituloCards">
+                        <h3><b>JAPÓN</b></h3> 
+                        <h4 class="costoConsulta">$7500</h4>
+                        <button class="btnReservar">Reservar Consulta</button>
+                      </div>
+                    </div>
+        
+                        <div class="card">
+                          <img class="fotoFrancia" src="./images/jsAustr.jpg" >
+                          <div class="tituloCards">
+                            <h3><b>AUSTRALIA</b></h3> 
+                            <h4 class="costoConsulta">$15000</h4>
+                            <button class="btnReservar">Reservar Consulta</button>
+                          </div>
+                        </div>
+        
+                        <div class="card">
+                          <img class="fotoFrancia" src="./images/jsEsp.jpg" >
+                          <div class="tituloCards">
+                            <h3><b>ESPAÑA</b></h3> 
+                            <h4 class="costoConsulta">$13000</h4>
+                            <button class="btnReservar">Reservar Consulta</button>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card">
+                          <img class="fotoFrancia" src="./images/jsCana.jpg" >
+                          <div class="tituloCards">
+                            <h3><b>CANADA</b></h3> 
+                            <h4 class="costoConsulta">$8000</h4>
+                            <button class="btnReservar">Reservar Consulta</button>
+                          </div>
+                        </div>
+            
+                            <div class="card">
+                              <img class="fotoFrancia" src="./images/jsBaha.jpg" >
+                              <div class="tituloCards">
+                                <h3><b>LAS BAHAMAS</b></h3> 
+                                <h4 class="costoConsulta">$4500</h4>
+                                <button class="btnReservar">Reservar Consulta</button>
+                              </div>
+                            </div>
+            
+                            <div class="card">
+                              <img class="fotoFrancia" src="./images/jsIndia.jpg" >
+                              <div class="tituloCards">
+                                <h3><b>INDIA</b></h3> 
+                                <h4 class="costoConsulta">$11200</h4>
+                                <button class="btnReservar">Reservar Consulta</button>
+                              </div>
+                            </div>
+                        </div>
+                     </div>
+</body>
+            <script src="consultas.js"></script>
+</html>

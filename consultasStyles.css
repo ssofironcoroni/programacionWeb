@@ -1,0 +1,248 @@
+*{
+    padding: 0.2vw;
+    margin: 0.2vw;
+    font-family: 'Gluten', cursive;
+    text-align: center;
+  }
+
+.NavBar {
+    list-style-type: none;
+    margin: 0.5vw;
+    margin-top: 0.5vw;
+    padding: 0.5vw;
+    background-color: #eaa8c7;
+    font-size: 1.7vw;
+    justify-content: center;
+    display: flex;
+    color: white;
+    overflow: hidden;
+    font-family: 'Gluten', cursive;
+    width: 90vw;
+    float: inline-start;
+    border-radius: 3vw;
+    
+  }
+
+  nav ul li {
+    list-style: none;
+    float: left;
+    margin: 0.3vw;
+    padding: 0.4vw;  
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: .5s;
+  }
+
+  li a:hover{
+   background-color: #fac1dc;
+  }
+
+  .subtitulo1 {
+    text-align: center;
+    font-family: 'Gluten', cursive;
+    padding: 1vw;
+    font-size: 2.5vw;
+  }
+  
+  .subtitulo2 {
+    text-align: center;
+    font-family: 'Gluten', cursive;
+    padding: 2vw;
+    font-size: 1.7vw;
+  }
+
+  .volverInicio{
+    border: none;
+    color: black;
+    font-family: 'Gluten', cursive;
+    background-color: #f5d0c4;
+    box-shadow: 0 8vw 16 0 rgba(0,0,0,0.1);
+    padding: 1vw 1vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5vw;
+    margin: 1vw;
+    margin-left: 5vw;
+    cursor: pointer;
+    border-radius: 1vw;
+    transition-duration: 0.5s;
+    height: 4vw;
+  }
+  
+  .volverInicio:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    background-color: #edab97;
+  }
+
+  .btnReservar {
+    width: 10vw; 
+    height: 3vw;
+    background-color: #FCB0EA;
+    color: black;
+    border: none;
+    border-radius: 2px;
+    font-size: 1.3vw;
+    cursor: pointer; 
+  }
+
+  .btnBorrar{
+    width: 10vw; 
+    height: 3vw;
+    background-color: #535052;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    font-size: 1.3vw;
+    cursor: pointer;
+  }
+
+  .btnBorrar:hover {
+    background-color: #f1d6ea;
+  }
+
+  @media (max-width: 1220px) {
+    .btnBorrar {
+      flex-direction: column;
+      width: 100%;
+    }
+  } 
+  
+  .btnReservar:hover {
+    background-color: #FFD2F4;
+  }
+
+  .btnVaciarCarrito{
+    width: 10vw; 
+    height: 3vw;
+    background-color: #535052;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    font-size: 1.3vw;
+    cursor: pointer;
+  }
+
+  .btnVaciarCarrito:hover {
+    background-color: #FFD2F4;
+  }
+
+.card{
+    font-family:'Gluten', cursive; 
+    padding: 1vw;
+    margin-top: 1vw;
+    box-shadow: 0 0.5vw 0.5vw 0 rgba(0,0,0,0.3);
+    border-radius: 1vw;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+.fotoFrancia{
+    height: 90%;
+    width: 100%;
+}
+  
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+  }
+
+
+.col{
+    flex-basis: 50%;
+    flex-grow: 1;
+  } 
+
+.container{
+    display: flex;
+    justify-content: center;
+  }
+  
+@media (max-width: 1220px) {
+    .container {
+      flex-direction: column;
+    }
+  } 
+
+.carroDeConsultas {
+    background-color: #FFB8EE;
+    padding: 1vw;
+    margin-top: 1vw;
+    width: 50%;
+    margin: 0 auto;
+    box-shadow: 0 0.5vw 0.5vw 0 rgba(0,0,0,0.3);
+  }
+
+  @media (max-width: 1220px) {
+    .carroDeConsultas {
+      width: 80%;
+    }
+  } 
+
+/*   #carrito .producto {
+    color: black;
+    font-size: 1.5vw;
+  }
+  
+  #carrito .costo {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 1.5vw;
+  }
+  
+  #carrito .eliminar {
+    background-color: rgb(158, 220, 158);
+    color: #fff;
+    border: none;
+    padding: 0.5vw 1vw;
+    font-size: 1.5vw;
+    font-weight: 300;
+    border-radius: 0.5vw;
+    cursor: pointer;
+  }
+  
+  #carrito .eliminar:hover {
+    background-color: rgb(158, 220, 158);
+  }
+  
+  
+  .carrito h2 {
+    margin-bottom: 1vw;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1vw;
+  }
+  
+  th, td {
+    padding: 0.8vw;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+
+  .btnEliminarDelCarro {
+    width: 10vw; 
+    height: 3vw;
+    background-color: #FCB0EA;
+    color: black;
+    border: none;
+    border-radius: 2px;
+    font-size: 1.3vw;
+    cursor: pointer; 
+  }
+  
+  .btnEliminarDelCarro:hover {
+    background-color: #FFD2F4;
+  }
+  
+  .btn-vaciar {
+    margin-right: 1vw;
+  } */

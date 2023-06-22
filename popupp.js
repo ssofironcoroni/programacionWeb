@@ -1,3 +1,5 @@
+
+
 const openButtons = document.querySelectorAll('.open-modal');
 const modals = document.querySelectorAll('.modal');
 const closeButtons = document.querySelectorAll('.modal__close');
