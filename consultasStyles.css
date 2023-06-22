@@ -93,10 +93,10 @@
   .btnBorrar{
     width: 10vw; 
     height: 3vw;
-    background-color: #535052;
+    background-color: #b9b3b7;
     color: white;
     border: none;
-    border-radius: 2px;
+    border-radius: 10vw;
     font-size: 1.3vw;
     cursor: pointer;
   }
@@ -183,66 +183,7 @@
       width: 80%;
     }
   } 
-
-/*   #carrito .producto {
-    color: black;
-    font-size: 1.5vw;
-  }
-  
-  #carrito .costo {
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-    font-size: 1.5vw;
-  }
-  
-  #carrito .eliminar {
-    background-color: rgb(158, 220, 158);
-    color: #fff;
-    border: none;
-    padding: 0.5vw 1vw;
-    font-size: 1.5vw;
-    font-weight: 300;
-    border-radius: 0.5vw;
-    cursor: pointer;
-  }
-  
-  #carrito .eliminar:hover {
-    background-color: rgb(158, 220, 158);
-  }
-  
-  
-  .carrito h2 {
-    margin-bottom: 1vw;
-  }
-  
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 1vw;
-  }
-  
-  th, td {
-    padding: 0.8vw;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
-  }
-  
-
-  .btnEliminarDelCarro {
-    width: 10vw; 
-    height: 3vw;
-    background-color: #FCB0EA;
-    color: black;
-    border: none;
-    border-radius: 2px;
-    font-size: 1.3vw;
-    cursor: pointer; 
-  }
-  
-  .btnEliminarDelCarro:hover {
-    background-color: #FFD2F4;
-  }
-  
-  .btn-vaciar {
-    margin-right: 1vw;
-  } */
+.tachoCarrito{
+  width: 20%;
+  height: 80%;
+}

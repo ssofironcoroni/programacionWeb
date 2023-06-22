@@ -48,7 +48,8 @@ function consultasUpdates() {
     var precioF = viaje.costoConsulta * viaje.cantReservas;
    
     var orden = document.createElement('tr');   /* tr crea en forma de tabla */
-    orden.innerHTML = `<td>${viaje.destino}</td><td>$${viaje.costoConsulta}</td><td>${viaje.cantReservas}</td><td>$${precioF}</td><td><button class="eliminarConsulta btnBorrar" data-elim="${m}">Eliminar</button></td>`;
+    orden.innerHTML = `<td>${viaje.destino}</td><td>$${viaje.costoConsulta}</td><td>${viaje.cantReservas}</td><td>$${precioF}</td><td>
+    <button class="eliminarConsulta btnBorrar" data-elim="${m}"> <img class="tachoCarrito" src="./images/tacho.png"> </button></td>`;
     carroCon.appendChild(orden);
   }
 
