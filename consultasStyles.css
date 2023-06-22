@@ -196,3 +196,11 @@
     height: 70%;
   }
 } 
+
+
+@media (max-width: 1220px) {
+  .btnBorrar {
+    width: 20%;
+    height: 30%;
+  }
+} 
