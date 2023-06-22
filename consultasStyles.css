@@ -192,9 +192,15 @@
     box-shadow: 0 0.5vw 0.5vw 0 rgba(0,0,0,0.3);
   }
 
+  .contenidoCarrito{
+    font-size: 2vw;
+  }
+
+
   @media (max-width: 1220px) {
     .carroDeConsultas {
-      width: 50%;
+      width: 80%;
+      font-size: 2vw;
     }
   } 
 
