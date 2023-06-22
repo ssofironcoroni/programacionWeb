@@ -204,7 +204,6 @@
     }
   } 
 
-
 .tachoCarrito{
   width: 20%;
   height: 80%;
@@ -212,7 +211,7 @@
 
 @media (max-width: 1220px) {
   .tachoCarrito {
-    width: 60%;
-    height: 70%;
+    width: 80%;
+    height: 90%;
   }
 } 
