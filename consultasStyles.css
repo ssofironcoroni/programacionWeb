@@ -134,6 +134,13 @@
     cursor: pointer;
   }
 
+  @media (max-width: 1220px) {
+    .btnVaciarCarrito {
+      width: 20%;
+      height: 30%;
+    }
+  }
+
   .btnVaciarCarrito:hover {
     background-color: #FFD2F4;
   }
