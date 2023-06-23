@@ -148,8 +148,8 @@
   } 
 
   .btnBorrar{
-    width: 80%; 
-    height: 90%;
+    width: 60%; 
+    height: 70%;
     background-color: #b9b3b7;
     color: white;
     border: none;
@@ -252,13 +252,13 @@
   } 
 
 .tachoCarrito{
-  width: 50%;
-  height: 60%;
+  width: 70%;
+  height: 80%;
 }
 
 @media (max-width: 1220px) {
   .tachoCarrito {
-    width: 60%;
+    width: 80%;
   }
 }  
 
