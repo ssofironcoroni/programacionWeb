@@ -252,13 +252,13 @@
   } 
 
 .tachoCarrito{
-  width: 70%;
-  height: 80%;
+  width: 50%;
+  height: 60%;
 }
 
 @media (max-width: 1220px) {
   .tachoCarrito {
-    width: 50%;
+    width: 60%;
   }
 }  
 
