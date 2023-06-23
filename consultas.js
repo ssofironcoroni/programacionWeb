@@ -75,3 +75,4 @@ function borrarUnaConsulta() {
   carroDeConsultas.splice(elim, 1);
   consultasUpdates();
 }
+

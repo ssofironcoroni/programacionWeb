@@ -97,6 +97,28 @@
     }
   } 
 
+  .btnFinalizar{
+    width: 10vw; 
+    height: 4vw;
+    background-color: #ff67db;
+    color: black;
+    border: none;
+    border-radius: 2px;
+    font-size: 1.3vw;
+    cursor: pointer; 
+  }
+
+  .btnFinalizar:hover{
+    background-color: #f1d6ea;
+  }
+
+  @media (max-width: 1220px) {
+    .btnFinalizar {
+      width: 10vw;
+      height: 7vw;
+    }
+  } 
+
   .btnBorrar{
     width: 40%; 
     height: 50%;
