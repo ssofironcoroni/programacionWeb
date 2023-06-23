@@ -76,3 +76,10 @@ function borrarUnaConsulta() {
   consultasUpdates();
 }
 
+<script>
+
+function alerta() {
+alert("Su compra se realizó con exito! Muchas gracias por confiar en nosotros");
+
+}
+</script>
