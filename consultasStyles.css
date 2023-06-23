@@ -238,7 +238,7 @@
 
   @media (max-width: 1220px) {
     .carroDeConsultas {
-      width: 50%;
+      width: 80%;
       font-size: 4vw;
     }
   } 
@@ -255,7 +255,7 @@
 }  
 
 .thCarrito{
-  font-size: 4vw;
+  font-size: 2vw;
 }
 
 
