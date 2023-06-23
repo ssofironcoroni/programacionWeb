@@ -238,7 +238,7 @@
 
   @media (max-width: 1220px) {
     .carroDeConsultas {
-      width: 80%;
+      width: 50%;
       font-size: 4vw;
     }
   } 
