@@ -92,9 +92,9 @@
 
   @media (max-width: 1220px) {
     .btnReservar {
-      width: 50%;
-      height: 60%;
-      font-size: 3vw;
+      width: 30%;
+      height: 40%;
+      font-size: 3.5vw;
     }
   } 
 
@@ -221,7 +221,7 @@
   @media (max-width: 1220px) {
     .carroDeConsultas {
       width: 80%;
-      font-size: 3vw;
+      font-size: 3.5vw;
     }
   } 
 
