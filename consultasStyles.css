@@ -163,7 +163,7 @@
   
   @media (max-width: 1220px) {
     .btnBorrar {
-      height: 40%;
+      height: 60%;
       font-size: 2vw;
     }
   }
@@ -257,7 +257,7 @@
 
 @media (max-width: 1220px) {
   .tachoCarrito {
-    width: 80%;
+    width: 100%;
   }
 }  
 
