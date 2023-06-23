@@ -92,8 +92,8 @@
 
   @media (max-width: 1220px) {
     .btnReservar {
-      width: 30%;
-      height: 40%;
+      width: 50%;
+      height: 60%;
       font-size: 3vw;
     }
   } 
