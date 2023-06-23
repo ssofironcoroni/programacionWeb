@@ -97,6 +97,14 @@
     background-color: #edab97;
   }
 
+  @media (max-width: 1220px) {
+    .volverInicio {
+      width: 30%;
+      height: 40%;
+      font-size: 3.5vw;
+    }
+  } 
+
   .btnReservar {
     width: 10vw; 
     height: 3vw;
