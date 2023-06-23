@@ -1,7 +1,9 @@
 
 
-var botonesReservar = document.getElementsByClassName('btnReservar');
-var carroDeConsultas = [];
+let carroDeConsultas = [];
+
+let botonesReservar = document.getElementsByClassName('btnReservar');
+
   
 
 for (var i = 0; i < botonesReservar.length; i++) {
