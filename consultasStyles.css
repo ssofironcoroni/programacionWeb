@@ -137,8 +137,8 @@
   
   @media (max-width: 1220px) {
     .btnBorrar {
-      width: 50%;
-      height: 60%;
+      width: 60%;
+      height: 70%;
       font-size: 2vw;
     }
   }
@@ -221,7 +221,7 @@
   @media (max-width: 1220px) {
     .carroDeConsultas {
       width: 80%;
-      font-size: 4vw;
+      font-size: 3vw;
     }
   } 
 
