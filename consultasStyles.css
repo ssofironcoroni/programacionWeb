@@ -148,7 +148,7 @@
   } 
 
   .btnBorrar{
-    width: 10%; 
+    width: 40%; 
     height: 50%;
     background-color: #b9b3b7;
     color: white;
@@ -163,7 +163,7 @@
   
   @media (max-width: 1220px) {
     .btnBorrar {
-      height: 90%;
+      height: 40%;
       font-size: 2vw;
     }
   }
