@@ -20,11 +20,10 @@ function reservarConsulta()
     return item.destino === viaje.destino;
   });
 
-  if (hayReserva) { 
+if (hayReserva) { 
     hayReserva.cantReservas++;
-  } 
-  
-  else {
+} 
+else {
     carroDeConsultas.push(viaje);
   }
 
@@ -75,4 +74,3 @@ function borrarUnaConsulta() {
   carroDeConsultas.splice(elim, 1);
   consultasUpdates();
 }
-
