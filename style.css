@@ -23,6 +23,12 @@
     
   }
 
+  @media (max-width: 1220px) {
+    .NavBar {
+      font-size: 2.5vw;
+    }
+  } 
+
   nav ul li {
     list-style: none;
     float: left;
