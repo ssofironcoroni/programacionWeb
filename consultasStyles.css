@@ -72,7 +72,7 @@
     }
   } 
 
-  
+
   .volverInicio{
     border: none;
     color: black;
@@ -253,3 +253,15 @@
     width: 40%;
   }
 }  
+
+.thCarrito{
+  font-size: 4vw;
+}
+
+
+@media (max-width: 1220px) {
+  .thCarrito {
+    width: 80%;
+    font-size: 4vw;
+  }
+}
